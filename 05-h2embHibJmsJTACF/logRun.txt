@@ -1,0 +1,252 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building 01-demo-spring-boot 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> spring-boot-maven-plugin:1.2.2.RELEASE:run (default-cli) @ 01-demo-spring-boot >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ 01-demo-spring-boot ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ 01-demo-spring-boot ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ 01-demo-spring-boot ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ 01-demo-spring-boot ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] <<< spring-boot-maven-plugin:1.2.2.RELEASE:run (default-cli) @ 01-demo-spring-boot <<<
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.2.2.RELEASE:run (default-cli) @ 01-demo-spring-boot ---
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.2.2.RELEASE)
+
+2015-03-06 16:31:55.711  INFO 5584 --- [lication.main()] i.l.boot.demo.rest.Application           : Starting Application on LUIGI-PC with PID 5584 (C:\development\EclipseWKS\04-demo-spring-boot-h2embHibJmsTransactional\target\classes started by LUIGI in C:\development\EclipseWKS\04-demo-spring-boot-h2embHibJmsTransactional)
+2015-03-06 16:31:55.820  INFO 5584 --- [lication.main()] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8f3d26: startup date [Fri Mar 06 16:31:55 CET 2015]; root of context hierarchy
+2015-03-06 16:31:57.646  INFO 5584 --- [lication.main()] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2015-03-06 16:31:58.458  INFO 5584 --- [lication.main()] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-06 16:31:58.910  INFO 5584 --- [lication.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.jms.annotation.JmsBootstrapConfiguration' of type [class org.springframework.jms.annotation.JmsBootstrapConfiguration$$EnhancerBySpringCGLIB$$f4dcd910] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2015-03-06 16:31:59.020  INFO 5584 --- [lication.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$46618b6d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2015-03-06 16:31:59.052  INFO 5584 --- [lication.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2015-03-06 16:31:59.083  INFO 5584 --- [lication.main()] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2015-03-06 16:31:59.098  INFO 5584 --- [lication.main()] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2015-03-06 16:32:00.440  INFO 5584 --- [lication.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2015-03-06 16:32:01.034  INFO 5584 --- [lication.main()] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2015-03-06 16:32:01.034  INFO 5584 --- [lication.main()] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.20
+2015-03-06 16:32:01.439  INFO 5584 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2015-03-06 16:32:01.439  INFO 5584 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 5634 ms
+2015-03-06 16:32:03.202  INFO 5584 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2015-03-06 16:32:03.218  INFO 5584 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2015-03-06 16:32:03.218  INFO 5584 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2015-03-06 16:32:03.572  WARN 5584 --- [lication.main()] c.atomikos.jdbc.AbstractDataSourceBean   : AtomikosDataSoureBean 'dataSource': poolSize equals default - this may cause performance problems!
+2015-03-06 16:32:04.336  INFO 5584 --- [lication.main()] org.hornetq.core.server                  : HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=C:\Users\LUIGI\AppData\Local\Temp\hornetq-data/journal,bindingsDirectory=data/bindings,largeMessagesDirectory=data/largemessages,pagingDirectory=data/paging)
+2015-03-06 16:32:04.336  INFO 5584 --- [lication.main()] org.hornetq.core.server                  : HQ221045: libaio is not available, switching the configuration into NIO
+2015-03-06 16:32:04.384  INFO 5584 --- [lication.main()] org.hornetq.core.server                  : HQ221043: Adding protocol support CORE
+2015-03-06 16:32:04.478  INFO 5584 --- [lication.main()] org.hornetq.core.server                  : HQ221003: trying to deploy queue jms.queue.codaPrenotazioneEsami
+2015-03-06 16:32:04.571  INFO 5584 --- [lication.main()] org.hornetq.core.server                  : HQ221007: Server is now live
+2015-03-06 16:32:04.571  INFO 5584 --- [lication.main()] org.hornetq.core.server                  : HQ221001: HornetQ Server version 2.4.5.FINAL (Wild Hornet, 124) [4cedf55c-bc7b-11e4-bdee-53a805897b10] 
+2015-03-06 16:32:05.055  WARN 5584 --- [lication.main()] c.a.i.config.UserTransactionServiceImp   : No properties path set - looking for transactions.properties in classpath...
+2015-03-06 16:32:05.055  WARN 5584 --- [lication.main()] c.a.i.config.UserTransactionServiceImp   : transactions.properties not found - looking for jta.properties in classpath...
+2015-03-06 16:32:05.071  WARN 5584 --- [lication.main()] c.a.i.config.UserTransactionServiceImp   : Failed to open transactions properties file - using default values
+2015-03-06 16:32:05.227  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0025800008 with state COMMITTING
+2015-03-06 16:32:05.242  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0025800008 with state COMMITTING
+2015-03-06 16:32:05.242  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0025900008 with state COMMITTING
+2015-03-06 16:32:05.242  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0025900008 with state COMMITTING
+2015-03-06 16:32:05.242  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026000008 with state COMMITTING
+2015-03-06 16:32:05.242  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026000008 with state COMMITTING
+2015-03-06 16:32:05.242  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026100008 with state COMMITTING
+2015-03-06 16:32:05.242  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026100008 with state COMMITTING
+2015-03-06 16:32:05.242  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026200008 with state COMMITTING
+2015-03-06 16:32:05.242  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026200008 with state COMMITTING
+2015-03-06 16:32:05.242  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026300008 with state COMMITTING
+2015-03-06 16:32:05.242  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026300008 with state COMMITTING
+2015-03-06 16:32:05.242  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026400008 with state COMMITTING
+2015-03-06 16:32:05.242  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026400008 with state COMMITTING
+2015-03-06 16:32:05.242  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026500008 with state COMMITTING
+2015-03-06 16:32:05.242  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026500008 with state COMMITTING
+2015-03-06 16:32:05.242  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026600008 with state COMMITTING
+2015-03-06 16:32:05.242  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026600008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026700008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026700008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026800008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026800008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026900008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0026900008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027000008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027000008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027100008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027100008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027200008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027200008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027300008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027300008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027400008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027400008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027500008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027500008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027600008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027600008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027700008 with state COMMITTING
+2015-03-06 16:32:05.258  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027700008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027800008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027800008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027900008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0027900008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028000008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028000008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028100008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028100008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028200008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028200008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028300008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028300008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028400008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028400008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028500008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028500008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028600008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028600008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028700008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028700008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028800008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028800008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028900008 with state COMMITTING
+2015-03-06 16:32:05.273  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0028900008 with state COMMITTING
+2015-03-06 16:32:05.289  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029000008 with state COMMITTING
+2015-03-06 16:32:05.289  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029000008 with state COMMITTING
+2015-03-06 16:32:05.289  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029100008 with state COMMITTING
+2015-03-06 16:32:05.289  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029100008 with state COMMITTING
+2015-03-06 16:32:05.289  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029200008 with state COMMITTING
+2015-03-06 16:32:05.289  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029200008 with state COMMITTING
+2015-03-06 16:32:05.289  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029300008 with state COMMITTING
+2015-03-06 16:32:05.289  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029300008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029400008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029400008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029500008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029500008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029600008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029600008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029700008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029700008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029800008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029800008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029900008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0029900008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030000008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030000008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030100008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030100008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030200008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030200008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030300008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030300008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030400008 with state COMMITTING
+2015-03-06 16:32:05.305  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030400008 with state COMMITTING
+2015-03-06 16:32:05.320  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030500008 with state COMMITTING
+2015-03-06 16:32:05.320  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030500008 with state COMMITTING
+2015-03-06 16:32:05.320  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030600008 with state COMMITTING
+2015-03-06 16:32:05.320  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030600008 with state COMMITTING
+2015-03-06 16:32:05.320  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030700008 with state COMMITTING
+2015-03-06 16:32:05.320  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030700008 with state COMMITTING
+2015-03-06 16:32:05.320  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030800008 with state COMMITTING
+2015-03-06 16:32:05.320  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030800008 with state COMMITTING
+2015-03-06 16:32:05.320  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030900008 with state COMMITTING
+2015-03-06 16:32:05.320  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0030900008 with state COMMITTING
+2015-03-06 16:32:05.320  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031000008 with state COMMITTING
+2015-03-06 16:32:05.320  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031000008 with state COMMITTING
+2015-03-06 16:32:05.320  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031100008 with state COMMITTING
+2015-03-06 16:32:05.320  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031100008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031200008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031200008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031300008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031300008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031400008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031400008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031500008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031500008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031600008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031600008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031700008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031700008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031800008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031800008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031900008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0031900008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032000008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032000008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032100008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032100008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032200008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032200008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032300008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032300008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032400008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032400008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032500008 with state COMMITTING
+2015-03-06 16:32:05.336  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032500008 with state COMMITTING
+2015-03-06 16:32:05.351  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032600008 with state COMMITTING
+2015-03-06 16:32:05.351  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032600008 with state COMMITTING
+2015-03-06 16:32:05.351  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032700008 with state COMMITTING
+2015-03-06 16:32:05.351  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032700008 with state COMMITTING
+2015-03-06 16:32:05.351  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032800008 with state COMMITTING
+2015-03-06 16:32:05.351  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032800008 with state COMMITTING
+2015-03-06 16:32:05.351  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032900008 with state COMMITTING
+2015-03-06 16:32:05.351  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0032900008 with state COMMITTING
+2015-03-06 16:32:05.351  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0033000008 with state COMMITTING
+2015-03-06 16:32:05.351  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0033000008 with state COMMITTING
+2015-03-06 16:32:05.351  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0033100008 with state COMMITTING
+2015-03-06 16:32:05.351  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0033100008 with state COMMITTING
+2015-03-06 16:32:05.351  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0033200008 with state COMMITTING
+2015-03-06 16:32:05.351  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0033200008 with state COMMITTING
+2015-03-06 16:32:05.351  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0033300008 with state COMMITTING
+2015-03-06 16:32:05.351  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0033300008 with state COMMITTING
+2015-03-06 16:32:05.351  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0033400008 with state COMMITTING
+2015-03-06 16:32:05.351  WARN 5584 --- [lication.main()] com.atomikos.icatch.imp.CoordinatorImp   : Local heuristic termination of coordinator 192.168.1.102.tm0033400008 with state COMMITTING
+2015-03-06 16:32:05.540  INFO 5584 --- [lication.main()] o.s.t.jta.JtaTransactionManager          : Using JTA UserTransaction: com.atomikos.icatch.jta.UserTransactionManager@191a0d3
+2015-03-06 16:32:05.540  INFO 5584 --- [lication.main()] o.s.t.jta.JtaTransactionManager          : Using JTA TransactionManager: com.atomikos.icatch.jta.UserTransactionManager@191a0d3
+2015-03-06 16:32:05.774  INFO 5584 --- [lication.main()] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2015-03-06 16:32:05.820  INFO 5584 --- [lication.main()] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2015-03-06 16:32:06.117  INFO 5584 --- [lication.main()] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.8.Final}
+2015-03-06 16:32:06.117  INFO 5584 --- [lication.main()] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2015-03-06 16:32:06.132  INFO 5584 --- [lication.main()] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2015-03-06 16:32:06.476  INFO 5584 --- [lication.main()] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-03-06 16:32:06.695  INFO 5584 --- [lication.main()] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2015-03-06 16:32:07.007  INFO 5584 --- [lication.main()] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory
+2015-03-06 16:32:07.647  INFO 5584 --- [lication.main()] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export
+2015-03-06 16:32:07.679  INFO 5584 --- [lication.main()] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete
+2015-03-06 16:32:08.974  INFO 5584 --- [lication.main()] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8f3d26: startup date [Fri Mar 06 16:31:55 CET 2015]; root of context hierarchy
+2015-03-06 16:32:09.115  INFO 5584 --- [lication.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/prenotaEsame],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.luigibennardis.boot.demo.rest.Controller.prenotaEsame(java.lang.String,java.lang.String)
+2015-03-06 16:32:09.115  INFO 5584 --- [lication.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/prenotazioniFatte],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String it.luigibennardis.boot.demo.rest.Controller.prenotazioniFatte()
+2015-03-06 16:32:09.115  INFO 5584 --- [lication.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2015-03-06 16:32:09.115  INFO 5584 --- [lication.main()] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2015-03-06 16:32:09.162  INFO 5584 --- [lication.main()] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2015-03-06 16:32:09.162  INFO 5584 --- [lication.main()] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2015-03-06 16:32:09.224  INFO 5584 --- [lication.main()] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2015-03-06 16:32:09.632  INFO 5584 --- [lication.main()] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2015-03-06 16:32:09.679  INFO 5584 --- [lication.main()] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2015-03-06 16:32:09.882  INFO 5584 --- [lication.main()] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2015-03-06 16:32:09.882  INFO 5584 --- [lication.main()] i.l.boot.demo.rest.Application           : Started Application in 15.139 seconds (JVM running for 22.391)
+2015-03-06 16:32:14.854  INFO 5584 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2015-03-06 16:32:14.854  INFO 5584 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2015-03-06 16:32:14.908  INFO 5584 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 53 ms
+MESSAGGIO PUBBLICATO SULLA CODA codaPrenotazioneEsami :PROGRESSIVO MESSAGGIO IN CODA 1|PRE00001|abcd0005|000001
+MESSAGGIO PUBBLICATO SULLA CODA codaPrenotazioneEsami :PROGRESSIVO MESSAGGIO IN CODA 2|PRE00001|abcd0006|000001
+MESSAGGIO PUBBLICATO SULLA CODA codaPrenotazioneEsami :PROGRESSIVO MESSAGGIO IN CODA 3|PRE00001|abcd0007|000001
+SIMULAZIONE DI ROLLBACK ULTIMA TRANSAZIONE
+SIMULAZIONE DI ROLLBACK ULTIMA TRANSAZIONE

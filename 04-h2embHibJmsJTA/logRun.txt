@@ -1,0 +1,51 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building demo-spring-boot-h2embHibJmsJta 0.0.1-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ demo-spring-boot-h2embHibJmsJta ---
+[INFO] Deleting C:\development\EclipseWKS\04-demo-spring-boot-h2embHibJmsTransactional\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ demo-spring-boot-h2embHibJmsJta ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ demo-spring-boot-h2embHibJmsJta ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to C:\development\EclipseWKS\04-demo-spring-boot-h2embHibJmsTransactional\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ demo-spring-boot-h2embHibJmsJta ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ demo-spring-boot-h2embHibJmsJta ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.17:test (default-test) @ demo-spring-boot-h2embHibJmsJta ---
+[INFO] 
+[INFO] --- maven-war-plugin:2.5:war (default-war) @ demo-spring-boot-h2embHibJmsJta ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [demo-spring-boot-h2embHibJmsJta] in [C:\development\EclipseWKS\04-demo-spring-boot-h2embHibJmsTransactional\target\demo-spring-boot-h2embHibJmsJta-0.0.1-SNAPSHOT]
+[INFO] Processing war project
+[INFO] Copying webapp resources [C:\development\EclipseWKS\04-demo-spring-boot-h2embHibJmsTransactional\src\main\webapp]
+[INFO] Webapp assembled in [296 msecs]
+[INFO] Building war: C:\development\EclipseWKS\04-demo-spring-boot-h2embHibJmsTransactional\target\demo-spring-boot-h2embHibJmsJta-0.0.1-SNAPSHOT.war
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.2.2.RELEASE:repackage (default) @ demo-spring-boot-h2embHibJmsJta ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ demo-spring-boot-h2embHibJmsJta ---
+[INFO] Installing C:\development\EclipseWKS\04-demo-spring-boot-h2embHibJmsTransactional\target\demo-spring-boot-h2embHibJmsJta-0.0.1-SNAPSHOT.war to C:\Users\LUIGI\.m2\repository\luigibennardis\demo-spring-boot-h2embHibJmsJta\0.0.1-SNAPSHOT\demo-spring-boot-h2embHibJmsJta-0.0.1-SNAPSHOT.war
+[INFO] Installing C:\development\EclipseWKS\04-demo-spring-boot-h2embHibJmsTransactional\pom.xml to C:\Users\LUIGI\.m2\repository\luigibennardis\demo-spring-boot-h2embHibJmsJta\0.0.1-SNAPSHOT\demo-spring-boot-h2embHibJmsJta-0.0.1-SNAPSHOT.pom
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:1.2.2.RELEASE:repackage (default-cli) @ demo-spring-boot-h2embHibJmsJta ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 9.150 s
+[INFO] Finished at: 2015-03-23T19:50:27+01:00
+[INFO] Final Memory: 20M/54M
+[INFO] ------------------------------------------------------------------------
